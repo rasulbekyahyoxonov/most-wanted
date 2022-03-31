@@ -1,0 +1,296 @@
+@media only screen and (min-width:1820px) {
+    .conteiner, .conteiner1, .conteiner2, .conteiner3, .conteiner4 {
+        max-width: 70%;
+        margin: auto;
+    }
+}
+@media only screen and (max-width:1820px) {
+    .conteiner {
+        width: 80%;
+        margin: auto;
+    }
+    .rightcorusel {
+        width: 60%;
+    }
+    .rightcorusel-top {
+        padding-top: 5%;
+    }
+    .content {
+        width: 370px;
+        height: 570px;
+        margin: 10px 0;
+    }
+}
+@media only screen and (max-width:1500px) {
+    .rightcorusel {
+        width: 55%;
+    }
+    .conteiner {
+        width: 90%;
+        margin: auto;
+    }
+    .rightcorusel-top {
+        padding-top: 5%;
+    }
+    .rightcorusel-center .centerh1 {
+        font-size: 42px;
+    }
+    .centerp {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .content {
+        width: 350px;
+        height: 550px;
+        margin: 7px 0;
+    }
+    .conteiner1 {
+        width: 90%;
+        margin: auto;
+    }
+
+}
+@media only screen and (max-width:1200px) {
+    .leftimg {
+        width: 380px;
+        height: auto;
+    }
+    .rightcorusel-center .centerh1 {
+        font-size: 38px;
+        z-index: 22;
+        width: 100%;
+    }
+    .centerp {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .conteiner1 {
+        width: 75%;
+        margin: auto;
+    }
+    .conteiner3 {
+        width: 75%;
+        margin: auto;
+    }
+    .bottomtitlediv .titlename-h1 {
+        font-size: 34px;
+    }
+    .leftsection {
+        display: block;
+        width: 100%;
+    }
+    .leftdivimg img {
+        margin-top: 0;
+    }
+    .sectdiv {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+}
+@media only screen and (max-width:1075px) {
+    .rightcorusel-top {
+        padding-top: 3%;
+    }
+    .rightcorusel-center .centerh1 {
+        font-size: 36px;
+    }
+    .leftdiv i {
+        display: none;
+    }
+}
+@media only screen and (max-width:1000px) {
+    #carouselExampleIndicators {
+        height: 860px !important;
+    }
+    .leftimg {
+        width: 100%;
+        height: 450px;
+    }
+    .leftimg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .rightcorusel {
+        width: 100%;
+        display: block;
+        height: 300px;
+    }
+    .rightcorusel-top,
+    .rightcorusel-center,
+    .rightcorusel-bottom {
+        padding-left: 0;
+    }
+    .leftimg .d-block {
+        object-fit: contain;
+    }
+    .rightcorusel-top {
+        padding-top: 2%;
+    }
+    .carousel-inner {
+        width: 100%;
+        height: 950px;
+    }
+    .conteiner {
+        width: 75%;
+        margin: auto;
+    }
+    .leftdiv i {
+        display: none;
+    }
+    .trending .tren {
+        font-size: 38px;
+        font-weight: 700;
+    }
+    .backconteiner {
+        margin: 0;
+    }
+    .content {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .contentimgdiv {
+        margin-top: 100px;
+    }
+    .contentinfo {
+        width: 100%;
+        height: 100px;
+    }
+    .conteiner3 {
+        width: 80%;
+        margin: auto;
+    }
+    .bottomtitlediv .titlename-h1 {
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width:900px) {
+    
+    .carousel-inner {
+        width: 100%;
+        height: 810px;
+    }
+}
+@media only screen and (max-width:700px) {
+    .conteiner, .conteiner1 {
+        width: 90%;
+        margin: auto;
+    }
+    #nav {
+        width: 100%;
+        height: 160px;
+    }
+    .centerdiv .name a img {
+        width: 50%;
+    }
+    .carousel-inner {
+        width: 100%;
+        height: 800px;
+    }
+    .centerdiv {
+        font-size: 18px;
+        font-weight: 550;
+        width: 100%;
+        height: auto;
+        display: flex;
+
+    }
+    .leftdiv {
+        width: 100%;
+        display: block;
+    }    
+    .leftdiv input {
+        width: 100%;
+    }
+    .rightdiv {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .rightdiv .icoul {
+        margin: 5px 0;
+    }
+    .rightdiv #open {
+        margin: 0;
+    }
+    #check:checked ~ label #close {
+        z-index: 3;
+        display: block;
+        position: fixed;
+        right: 25px;
+        top: 45px;
+    }
+    .trending {
+        width: 100%;
+        height: 150px;
+    }
+    .conteiner3 {
+        width: 90%;
+        margin: auto;
+    }
+    .conteiner4 {
+        width: 100%;
+        margin: auto;
+    }
+    .bottomtitlediv .titlename-h1 {
+        font-size: 30px;
+    }
+    .leftdivimg {
+        width: 100%;
+        height: auto;
+    }
+    .leftdivimg img {
+        vertical-align: middle;
+        object-fit: cover;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .rightdivsection {
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .sectdiv {
+        width: 100%;
+        height: auto;
+    }
+    .allinputdiv {
+        margin-top: 100px;
+    }
+    .toptitle {
+        margin: 15px 10px;
+    }
+    .inputdiv input {
+        width: 95%;
+        margin: 10px;
+    }
+    .leftinputdiv, .rightbuttondiv {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .rightbuttondiv #submit {
+        width: 95%;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width:500px) {
+    #carouselExampleIndicators {
+        height: 800px !important;
+    }
+    #carouselExampleIndicators:hover .fa-chevron-left {
+        transform: translateX(0) !important;
+    }
+    #carouselExampleIndicators:hover .fa-chevron-right {
+        transform: translateX(0) !important;
+    }
+    .rightcorusel-center .centerh1 {
+        font-size: 28px;
+        padding: 15px 0;
+    }
+    .corusel2 {
+        height: auto;
+        padding: 3rem 0;
+    }
+}
